@@ -20,8 +20,8 @@ class _ContactPageState extends State<ContactPage> {
       body: Container(
         width: screenSize.width,
         height: screenSize.height,
-        decoration: const BoxDecoration(
-          color: Color(0xff011317),
+        decoration: BoxDecoration(
+          color: green,
         ),
         child: Column(
           children: [
@@ -49,7 +49,7 @@ class _ContactPageState extends State<ContactPage> {
                       child: Text(
                         'home',
                         style: kodchasan.copyWith(
-                            color: Colors.white,
+                            color: ivory,
                             fontSize: screenSize.width * 0.02),
                       ),
                     ),
@@ -107,7 +107,7 @@ class _ContactPageState extends State<ContactPage> {
                       child: Text(
                         'about',
                         style: kodchasan.copyWith(
-                            color: Colors.white,
+                            color: ivory,
                             fontSize: screenSize.width * 0.02),
                       ),
                     ),
@@ -129,7 +129,7 @@ class _ContactPageState extends State<ContactPage> {
                       child: Text(
                         'projects',
                         style: kodchasan.copyWith(
-                            color: Colors.white,
+                            color: ivory,
                             fontSize: screenSize.width * 0.02),
                       ),
                     ),
@@ -205,11 +205,11 @@ class _ContactPageState extends State<ContactPage> {
                                   border: InputBorder.none,
                                   hintText: 'name',
                                   hintStyle: kodchasan.copyWith(
-                                      color: Colors.white,
+                                      color: ivory,
                                       fontSize: screenSize.width * 0.02),
                                 ),
                                 style: kodchasan.copyWith(
-                                    color: Colors.white,
+                                    color: ivory,
                                     fontSize: screenSize.width * 0.02),
                               ),
                             ),
@@ -234,11 +234,11 @@ class _ContactPageState extends State<ContactPage> {
                                   border: InputBorder.none,
                                   hintText: 'email',
                                   hintStyle: kodchasan.copyWith(
-                                      color: Colors.white,
+                                      color: ivory,
                                       fontSize: screenSize.width * 0.02),
                                 ),
                                 style: kodchasan.copyWith(
-                                    color: Colors.white,
+                                    color: ivory,
                                     fontSize: screenSize.width * 0.02),
                               ),
                             ),
@@ -265,11 +265,11 @@ class _ContactPageState extends State<ContactPage> {
                                   border: InputBorder.none,
                                   hintText: 'message',
                                   hintStyle: kodchasan.copyWith(
-                                      color: Colors.white,
+                                      color: ivory,
                                       fontSize: screenSize.width * 0.02),
                                 ),
                                 style: kodchasan.copyWith(
-                                    color: Colors.white,
+                                    color: ivory,
                                     fontSize: screenSize.width * 0.02),
                               ),
                             ),
@@ -285,29 +285,28 @@ class _ContactPageState extends State<ContactPage> {
                                 horizontal: screenSize.width * 0.15),
                             child: Container(
                               decoration: BoxDecoration(
-                                color: Colors.white,
+                                color: ivory,
                                 borderRadius: BorderRadius.circular(
                                     screenSize.width * 0.05),
                               ),
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                children: [
-                                  TextButton(
-                                    onPressed: () {},
-                                    child: Text(
-                                      'send',
-                                      style: kodchasan.copyWith(
-                                          color: green,
-                                          fontSize: screenSize.width * 0.03),
-                                    ),
-                                  ),
-                                  Icon(
-                                    FontAwesomeIcons.arrowRightFromBracket,
-                                    color: green,
-                                    size: screenSize.width * 0.03,
-                                  )
-                                ],
+                              child: TextButton(
+                                onPressed: () {},
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: [Text(
+                                        'send',
+                                        style: kodchasan.copyWith(
+                                            color: green,
+                                            fontSize: screenSize.width * 0.03),
+                                      ),
+                                    Icon(
+                                      FontAwesomeIcons.arrowRightFromBracket,
+                                      color: green,
+                                      size: screenSize.width * 0.03,
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
@@ -377,9 +376,9 @@ class _ContactPageState extends State<ContactPage> {
             ),
             SizedBox(
               height: screenSize.height * 0.03,
-              child: const Text(
-                '© 2023 Kelsey Jo Design. All rights reserved.',
-                style: TextStyle(color: Colors.white, fontSize: 12),
+              child: Text(
+                '© 2023 Kelsey Jo Design.  All rights reserved.',
+                style: TextStyle(color: ivory, fontSize: 12),
                 textAlign: TextAlign.center,
               ),
             ),
