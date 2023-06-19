@@ -20,8 +20,8 @@ class _HomePageState extends State<HomePage> {
       body: Container(
         width: screenSize.width,
         height: screenSize.height,
-        decoration: const BoxDecoration(
-          color: Color(0xff011317),
+        decoration: BoxDecoration(
+          color: green,
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                       child: Text(
                         'home',
                         style: kodchasan.copyWith(
-                                color: const Color.fromARGB(255, 209, 129, 68), fontSize: screenSize.width * 0.02),
+                                color: orange, fontSize: screenSize.width * 0.02),
                       ),
                     ),
                   ),
@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Text('contact',
                           style: kodchasan.copyWith(
-                              color: Colors.white, fontSize: screenSize.width * 0.02),),
+                              color: ivory, fontSize: screenSize.width * 0.02),),
                     ),
                   ),
                   SizedBox(
@@ -104,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Text('about',
                           style: kodchasan.copyWith(
-                              color: Colors.white, fontSize: screenSize.width * 0.02),),
+                              color: ivory, fontSize: screenSize.width * 0.02),),
                     ),
                   ),
                   SizedBox(
@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Text('projects',
                           style: kodchasan.copyWith(
-                              color: Colors.white, fontSize: screenSize.width * 0.02),),
+                              color: ivory, fontSize: screenSize.width * 0.02),),
                     ),
                   ),
                   SizedBox(
@@ -134,7 +134,7 @@ class _HomePageState extends State<HomePage> {
             ),
             Container(
               width: screenSize.width,
-              height: screenSize.height * 0.6,
+              height: screenSize.height * 0.65,
               decoration: const BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage('assets/images/bg.png'),
@@ -149,13 +149,13 @@ class _HomePageState extends State<HomePage> {
                   Container(
                     padding: EdgeInsets.symmetric(vertical: screenSize.width * 0.005, horizontal: screenSize.width * 0.02),
                     decoration: BoxDecoration(
-                      color: const Color(0xff011317),
+                      color: green,
                       borderRadius: BorderRadius.circular(screenSize.width * 0.02),
                     ),
                     child: Text(
                       'my works',
                       style: TextStyle(
-                          color: Colors.white,
+                          color: ivory,
                           fontSize: screenSize.width * 0.025,
                           letterSpacing: screenSize.width * 0.001),
                     ),
@@ -164,7 +164,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             SizedBox(
-              height: screenSize.height * 0.05,
+              height: screenSize.height * 0.02,
             ),
             Container(
               width: screenSize.width,
@@ -213,9 +213,9 @@ class _HomePageState extends State<HomePage> {
             ),
             SizedBox(
                 height: screenSize.height * 0.03,
-                child: const Text(
+                child: Text(
                   '© 2023 Kelsey Jo Design. All rights reserved.',
-                  style: TextStyle(color: Colors.white, fontSize: 12),
+                  style: TextStyle(color: ivory, fontSize: 12),
                   textAlign: TextAlign.center,
                 )),
           ],
