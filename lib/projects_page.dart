@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:kelsey_website/about_page.dart';
 import 'package:kelsey_website/contact_page.dart';
 import 'package:kelsey_website/home_page.dart';
+import 'package:kelsey_website/personal_works_page.dart';
+import 'package:kelsey_website/professional_works_page.dart';
 import 'package:kelsey_website/styles.dart';
 
 class ProjectsPage extends StatefulWidget {
@@ -141,7 +143,7 @@ class _ProjectsPageState extends State<ProjectsPage> {
             ),
             SizedBox(
               width: screenSize.width,
-              height: screenSize.height * 0.65,
+              height: screenSize.height * 0.7,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -178,7 +180,7 @@ class _ProjectsPageState extends State<ProjectsPage> {
                                     Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                        builder: (context) => const ProjectsPage(),
+                                        builder: (context) => const ProfessionalWorksPage(),
                                       ),
                                     );
                                   },
@@ -197,7 +199,7 @@ class _ProjectsPageState extends State<ProjectsPage> {
                                     Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                        builder: (context) => const ProjectsPage(),
+                                        builder: (context) => const PersonalWorksPage(),
                                       ),
                                     );
                                   },
@@ -231,7 +233,7 @@ class _ProjectsPageState extends State<ProjectsPage> {
             ),
             Container(
               width: screenSize.width,
-              height: screenSize.height * 0.15,
+              height: screenSize.height * 0.12,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
