@@ -229,20 +229,21 @@ class _AboutPageState extends State<AboutPage> {
                                     ),
                                     const Spacer(flex: 1),
                                     Flexible(
+                                      flex: 2,
                                       child: Text('education',
                                           style: kodchasan.copyWith(
                                             color: orange,
                                             fontSize: screenSize.width * 0.015,
                                             fontWeight: FontWeight.bold,
                                           ),
-                                          textAlign: TextAlign.left),
+                                          textAlign: TextAlign.center),
                                     ),
                                     Flexible(
                                       child: Text(
                                           'BFA Graphic Design & Marketing',
                                           style: kodchasan.copyWith(
                                             color: ivory,
-                                            fontSize: screenSize.width * 0.01,
+                                            fontSize: screenSize.width * 0.008,
                                           ),
                                           textAlign: TextAlign.center),
                                     ),
@@ -251,7 +252,7 @@ class _AboutPageState extends State<AboutPage> {
                                           'University of Minnesota, Duluth',
                                           style: kodchasan.copyWith(
                                             color: ivory,
-                                            fontSize: screenSize.width * 0.01,
+                                            fontSize: screenSize.width * 0.008,
                                           ),
                                           textAlign: TextAlign.center),
                                     ),
@@ -259,11 +260,10 @@ class _AboutPageState extends State<AboutPage> {
                                       child: Text('Fall 2018 - Summer 2022',
                                           style: kodchasan.copyWith(
                                             color: ivory,
-                                            fontSize: screenSize.width * 0.01,
+                                            fontSize: screenSize.width * 0.008,
                                           ),
                                           textAlign: TextAlign.center),
                                     ),
-                                    const Spacer(flex: 1),
                                   ],
                                 ),
                               ),
@@ -277,19 +277,19 @@ class _AboutPageState extends State<AboutPage> {
                                     Text('Hello, my name is Kelsey Gilles.',
                                         style: kodchasan.copyWith(
                                           color: orange,
-                                          fontSize: screenSize.width * 0.02,
+                                          fontSize: screenSize.width * 0.018,
                                           fontWeight: FontWeight.bold,
                                         ),
                                         textAlign: TextAlign.center),
                                     Padding(
                                       padding: EdgeInsets.all(
-                                          screenSize.width * 0.01),
+                                          screenSize.width * 0.005),
                                       child: Text(
                                           'I am a recent graduate from The University of Minnesota, Duluth with a BFA in Graphic Design and Marketing. for the last 2 years I have enjoyed working alongside independent creators and local small businesses and makers. I love working with people in my community because it allows for me to connect with people on a deeper level than just strictly professional. I pride myself on my ability to communicate effectively, and work with people and their businesses in a way that results in effective and impressive designs for their intended purposes.\n\nIn my personal life, I really enjoy learning about different facets of engineering and 3D design. My partner and I have collaborated on a variety of projects - recently RC cars, aquarium pumps, and personal desk fans - and are always coming up with more opportunities to learn how to engineer and optimize different projects for our intended purposes. Additionally, I am continuously fascinated by different species of animals and how to properly care for them. I get to enjoy taking care of mine and my partners 3 cats, 2 ferrets, and a naturalistic aquarium with a variety of aquatic species.',
                                           softWrap: true,
                                           style: kodchasan.copyWith(
                                             color: ivory,
-                                            fontSize: screenSize.width * 0.009,
+                                            fontSize: screenSize.width * 0.008,
                                           ),
                                           textAlign: TextAlign.center),
                                     ),
@@ -337,7 +337,7 @@ class _AboutPageState extends State<AboutPage> {
                                           softWrap: true,
                                           style: kodchasan.copyWith(
                                             color: ivory,
-                                            fontSize: screenSize.width * 0.01,
+                                            fontSize: screenSize.width * 0.008,
                                           ),
                                           textAlign: TextAlign.center),
                                     ),
@@ -350,7 +350,7 @@ class _AboutPageState extends State<AboutPage> {
                                           softWrap: true,
                                           style: kodchasan.copyWith(
                                             color: ivory,
-                                            fontSize: screenSize.width * 0.01,
+                                            fontSize: screenSize.width * 0.008,
                                           ),
                                           textAlign: TextAlign.center),
                                     ),
@@ -386,7 +386,7 @@ class _AboutPageState extends State<AboutPage> {
                                           softWrap: true,
                                           style: kodchasan.copyWith(
                                             color: ivory,
-                                            fontSize: screenSize.width * 0.01,
+                                            fontSize: screenSize.width * 0.008,
                                           ),
                                           textAlign: TextAlign.center),
                                     ),
@@ -399,7 +399,7 @@ class _AboutPageState extends State<AboutPage> {
                                           softWrap: true,
                                           style: kodchasan.copyWith(
                                             color: ivory,
-                                            fontSize: screenSize.width * 0.01,
+                                            fontSize: screenSize.width * 0.008,
                                           ),
                                           textAlign: TextAlign.center),
                                     ),
@@ -435,7 +435,7 @@ class _AboutPageState extends State<AboutPage> {
                                           softWrap: true,
                                           style: kodchasan.copyWith(
                                             color: ivory,
-                                            fontSize: screenSize.width * 0.01,
+                                            fontSize: screenSize.width * 0.008,
                                           ),
                                           textAlign: TextAlign.center),
                                     ),
@@ -448,7 +448,7 @@ class _AboutPageState extends State<AboutPage> {
                                           softWrap: true,
                                           style: kodchasan.copyWith(
                                             color: ivory,
-                                            fontSize: screenSize.width * 0.01,
+                                            fontSize: screenSize.width * 0.008,
                                           ),
                                           textAlign: TextAlign.center),
                                     ),
