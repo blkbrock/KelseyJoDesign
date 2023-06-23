@@ -1,5 +1,16 @@
+import 'dart:js_util';
+
 import 'package:flutter/material.dart';
 import 'package:kelsey_website/about_page.dart';
+import 'package:kelsey_website/contact_page.dart';
+import 'package:kelsey_website/dnp_page.dart';
+import 'package:kelsey_website/eg_page.dart';
+import 'package:kelsey_website/es_page.dart';
+import 'package:kelsey_website/home_page.dart';
+import 'package:kelsey_website/minno_page.dart';
+import 'package:kelsey_website/projects_page.dart';
+import 'package:kelsey_website/pva_fp_page.dart';
+import 'package:kelsey_website/sbdc_page.dart';
 import 'package:kelsey_website/styles.dart';
 
 class ProfessionalWorksPage extends StatefulWidget {
@@ -17,8 +28,8 @@ class _ProfessionalWorksPageState extends State<ProfessionalWorksPage> {
       body: Container(
         width: screenSize.width,
         height: screenSize.height,
-        decoration: const BoxDecoration(
-          color: Color(0xff011317),
+        decoration: BoxDecoration(
+          color: green,
         ),
         child: Column(
           children: [
@@ -34,11 +45,20 @@ class _ProfessionalWorksPageState extends State<ProfessionalWorksPage> {
                   ),
                   SizedBox(
                     width: screenSize.width * 0.1,
-                    child: Text(
-                      'home',
-                      style: kodchasan.copyWith(
-                          color: Colors.white,
-                          fontSize: screenSize.width * 0.02),
+                    child: TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const HomePage(),
+                          ),
+                        );
+                      },
+                      child: Text(
+                        'home',
+                        style: kodchasan.copyWith(
+                            color: ivory, fontSize: screenSize.width * 0.02),
+                      ),
                     ),
                   ),
                   SizedBox(
@@ -51,15 +71,14 @@ class _ProfessionalWorksPageState extends State<ProfessionalWorksPage> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const AboutPage(),
+                            builder: (context) => const ContactPage(),
                           ),
                         );
                       },
                       child: Text(
                         'contact',
                         style: kodchasan.copyWith(
-                            color: Colors.white,
-                            fontSize: screenSize.width * 0.02),
+                            color: ivory, fontSize: screenSize.width * 0.02),
                       ),
                     ),
                   ),
@@ -94,8 +113,7 @@ class _ProfessionalWorksPageState extends State<ProfessionalWorksPage> {
                       child: Text(
                         'about',
                         style: kodchasan.copyWith(
-                            color: Colors.white,
-                            fontSize: screenSize.width * 0.02),
+                            color: ivory, fontSize: screenSize.width * 0.02),
                       ),
                     ),
                   ),
@@ -109,15 +127,14 @@ class _ProfessionalWorksPageState extends State<ProfessionalWorksPage> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const AboutPage(),
+                            builder: (context) => const ProjectsPage(),
                           ),
                         );
                       },
                       child: Text(
                         'projects',
                         style: kodchasan.copyWith(
-                            color: const Color.fromARGB(255, 209, 129, 68),
-                            fontSize: screenSize.width * 0.02),
+                            color: orange, fontSize: screenSize.width * 0.02),
                       ),
                     ),
                   ),
@@ -129,167 +146,323 @@ class _ProfessionalWorksPageState extends State<ProfessionalWorksPage> {
             ),
             SizedBox(
               width: screenSize.width,
-              height: screenSize.height * 0.6,
+              height: screenSize.height * 0.7,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Flexible(
-                    flex: 3,
+                    flex: 4,
                     child: Container(
                       decoration: const BoxDecoration(
                         image: DecorationImage(
+                            alignment: Alignment.centerLeft,
                             image: AssetImage('assets/images/bg.png'),
                             fit: BoxFit.fitHeight),
                       ),
                     ),
                   ),
                   Flexible(
-                    flex: 6,
+                    flex: 10,
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Flexible(
+                          flex: 10,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               const Spacer(flex: 1),
                               Flexible(
-                                flex: 5,
-                                child: Container(
-                                  padding: EdgeInsets.fromLTRB(
-                                      0, 0, 0, screenSize.width * 0.1),
-                                  decoration: const BoxDecoration(
-                                    image: DecorationImage(
-                                        image: AssetImage(
-                                            'assets/images/kels_headshot.png'),
-                                        fit: BoxFit.fitWidth),
+                                flex: 8,
+                                child: TextButton(
+                                  onPressed: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            const PvaFpWorksPage(),
+                                      ),
+                                    );
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: grue,
+                                    ),
+                                    child: Center(
+                                      child: Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceAround,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        mainAxisSize: MainAxisSize.max,
+                                        children: [
+                                          Flexible(
+                                            flex: 3,
+                                            child: Image.asset(
+                                              'assets/images/pva_logo.png',
+                                              fit: BoxFit.fitHeight,
+                                            ),
+                                          ),
+                                          Flexible(
+                                            flex: 2,
+                                            child: Padding(
+                                              padding: EdgeInsets.all(
+                                                  screenSize.width * 0.005),
+                                              child: Image.asset(
+                                                'assets/images/footprint_logo.png',
+                                                fit: BoxFit.fitHeight,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
                                   ),
                                 ),
                               ),
                               const Spacer(flex: 1),
                               Flexible(
-                                flex: 9,
-                                child: Column(
-                                  children: [
-                                    Text('Hello, my name is Kelsey Gilles.',
-                                        style: kodchasan.copyWith(
-                                          color: orange,
-                                          fontSize: screenSize.width * 0.015,
-                                          fontWeight: FontWeight.bold,
-                                        ),
-                                        textAlign: TextAlign.center),
-                                    Padding(
-                                      padding: EdgeInsets.all(
-                                          screenSize.width * 0.01),
-                                      child: Text(
-                                          'I am a recent graduate from The University of Minnesota, Duluth with a BFA in Graphic Design and Marketing. for the last 2 years I have enjoyed working alongside independent creators and local small businesses and makers. I love working with people in my community because it allows for me to connect with people on a deeper level than just strictly professional. I pride myself on my ability to communicate effectively, and work with people and their businesses in a way that results in effective and impressive designs for their intended purposes.\nIn my personal life, I really enjoy learning about different facets of engineering and 3D design. My partner and I have collaborated on a variety of projects - recently RC cars, aquarium pumps, and personal desk fans - and are always coming up with more opportunities to learn how to engineer and optimize different projects for our intended purposes. Additionally, I am continuously fascinated by different species of animals and how to properly care for them. I get to enjoy taking care of mine and my partners 3 cats, 2 ferrets, and a naturalistic aquarium with a variety of aquatic species.',
-                                          softWrap: true,
-                                          style: kodchasan.copyWith(
-                                            color: Colors.white,
-                                            fontSize: screenSize.width * 0.008,
-                                          ),
-                                          textAlign: TextAlign.center),
+                                flex: 8,
+                                child: TextButton(
+                                  onPressed: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            const EGWorksPage(),
+                                      ),
+                                    );
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: grue,
                                     ),
-                                  ],
+                                    child: Center(
+                                      child: Padding(
+                                        padding: EdgeInsets.all(
+                                            screenSize.width * 0.005),
+                                        child: Image.asset(
+                                          'assets/images/eg_logo.png',
+                                          fit: BoxFit.fitHeight,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
                                 ),
                               ),
                               const Spacer(flex: 1),
                             ],
                           ),
                         ),
+                        const Spacer(flex: 1),
                         Flexible(
-                            child: Row(
-                          children: [
-                            const Spacer(flex: 1),
-                            Flexible(
-                              flex: 7,
-                              child: Column(
-                                children: [
-                                  Text('Related work experience',
-                                      style: kodchasan.copyWith(
-                                        color: orange,
-                                        fontSize: screenSize.width * 0.02,
-                                        fontWeight: FontWeight.bold,
+                          flex: 10,
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              const Spacer(flex: 1),
+                              Flexible(
+                                flex: 8,
+                                child: TextButton(
+                                  onPressed: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            const DNPWorksPage(),
                                       ),
-                                      textAlign: TextAlign.center),
-                                  Padding(
-                                    padding:
-                                        EdgeInsets.all(screenSize.width * 0.01),
-                                    child: Text('',
-                                        softWrap: true,
-                                        style: kodchasan.copyWith(
-                                          color: Colors.white,
-                                          fontSize: screenSize.width * 0.01,
+                                    );
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: grue,
+                                    ),
+                                    child: Center(
+                                      child: Padding(
+                                        padding: EdgeInsets.all(
+                                            screenSize.width * 0.01),
+                                        child: Image.asset(
+                                          'assets/images/dnp_logo.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
-                                        textAlign: TextAlign.center),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            const Spacer(flex: 1),
-                            Flexible(
-                              flex: 7,
-                              child: Column(
-                                children: [
-                                  Text('Related work experience',
-                                      style: kodchasan.copyWith(
-                                        color: orange,
-                                        fontSize: screenSize.width * 0.02,
-                                        fontWeight: FontWeight.bold,
                                       ),
-                                      textAlign: TextAlign.center),
-                                  Padding(
-                                    padding:
-                                        EdgeInsets.all(screenSize.width * 0.01),
-                                    child: Text('',
-                                        softWrap: true,
-                                        style: kodchasan.copyWith(
-                                          color: Colors.white,
-                                          fontSize: screenSize.width * 0.01,
-                                        ),
-                                        textAlign: TextAlign.center),
+                                    ),
                                   ),
-                                ],
+                                ),
                               ),
-                            ),
-                            const Spacer(flex: 1),
-                            Flexible(
-                              flex: 7,
-                              child: Column(
-                                children: [
-                                  Text('Related work experience',
-                                      style: kodchasan.copyWith(
-                                        color: orange,
-                                        fontSize: screenSize.width * 0.02,
-                                        fontWeight: FontWeight.bold,
+                              const Spacer(flex: 1),
+                              Flexible(
+                                flex: 8,
+                                child: TextButton(
+                                  onPressed: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            const SBDCWorksPage(),
                                       ),
-                                      textAlign: TextAlign.center),
-                                  Padding(
-                                    padding:
-                                        EdgeInsets.all(screenSize.width * 0.01),
-                                    child: Text('',
-                                        softWrap: true,
-                                        style: kodchasan.copyWith(
-                                          color: Colors.white,
-                                          fontSize: screenSize.width * 0.01,
+                                    );
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: grue,
+                                    ),
+                                    child: Center(
+                                      child: Padding(
+                                        padding: EdgeInsets.all(
+                                            screenSize.width * 0.02),
+                                        child: Image.asset(
+                                          'assets/images/sbdc_logo.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
-                                        textAlign: TextAlign.center),
+                                      ),
+                                    ),
                                   ),
-                                ],
+                                ),
                               ),
-                            ),
-                          ],
-                        ))
+                              const Spacer(flex: 1),
+                            ],
+                          ),
+                        ),
+                        const Spacer(flex: 1),
+                        Flexible(
+                          flex: 10,
+                          child: Row(
+                            children: [
+                              const Spacer(flex: 1),
+                              Flexible(
+                                flex: 8,
+                                child: TextButton(
+                                  onPressed: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            const ESWorksPage(),
+                                      ),
+                                    );
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: grue,
+                                    ),
+                                    child: Center(
+                                      child: Padding(
+                                        padding: EdgeInsets.all(
+                                            screenSize.width * 0.01),
+                                        child: Image.asset(
+                                          'assets/images/eversmiles_logo.png',
+                                          fit: BoxFit.fitHeight,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              const Spacer(flex: 1),
+                              Flexible(
+                                flex: 8,
+                                child: TextButton(
+                                  onPressed: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            const MinnoWorksPage(),
+                                      ),
+                                    );
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: grue,
+                                    ),
+                                    child: Center(
+                                      child: Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceAround,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        mainAxisSize: MainAxisSize.max,
+                                        children: [
+                                          Flexible(
+                                            flex: 8,
+                                            child: Image.asset(
+                                              'assets/images/minnoette_logo.png',
+                                              fit: BoxFit.fitHeight,
+                                            ),
+                                          ),
+                                          Flexible(
+                                            flex: 2,
+                                            child: Image.asset(
+                                              'assets/images/minnoette2_logo.png',
+                                              fit: BoxFit.fitHeight,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              const Spacer(flex: 1),
+                            ],
+                          ),
+                        ),
+                        const Spacer(flex: 1),
+                        Flexible(
+                          flex: 3,
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              const Spacer(flex: 1),
+                              SizedBox(
+                                width: screenSize.width * 0.12,
+                                child: Container(
+                                  padding:
+                                      EdgeInsets.all(screenSize.width * 0.001),
+                                  decoration: BoxDecoration(
+                                    color: ivory,
+                                    borderRadius: BorderRadius.circular(
+                                        screenSize.width * 0.01),
+                                  ),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.arrow_back_ios,
+                                        color: orange,
+                                      ),
+                                      Text(
+                                        'go back',
+                                        style: kodchasan.copyWith(
+                                            color: green,
+                                            fontSize: screenSize.width * 0.02),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                              const Spacer(flex: 5),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   ),
                   Flexible(
-                    flex: 1,
+                    flex: 4,
                     child: Container(
                       decoration: const BoxDecoration(
                         image: DecorationImage(
+                            alignment: Alignment.centerRight,
                             image: AssetImage('assets/images/bg.png'),
                             fit: BoxFit.fitHeight),
                       ),
@@ -300,7 +473,7 @@ class _ProfessionalWorksPageState extends State<ProfessionalWorksPage> {
             ),
             Container(
               width: screenSize.width,
-              height: screenSize.height * 0.15,
+              height: screenSize.height * 0.12,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -345,9 +518,9 @@ class _ProfessionalWorksPageState extends State<ProfessionalWorksPage> {
             ),
             SizedBox(
               height: screenSize.height * 0.03,
-              child: const Text(
+              child: Text(
                 '© 2023 Kelsey Jo Design. All rights reserved.',
-                style: TextStyle(color: Colors.white, fontSize: 12),
+                style: TextStyle(color: ivory, fontSize: 12),
                 textAlign: TextAlign.center,
               ),
             ),
