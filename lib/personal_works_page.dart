@@ -81,11 +81,21 @@ class _PersonalWorksPageState extends State<PersonalWorksPage> {
                   ),
                   SizedBox(
                     width: screenSize.width * 0.3,
-                    child: Container(
-                      height: screenSize.height * 0.05,
-                      decoration: const BoxDecoration(
-                        image: DecorationImage(
-                          image: AssetImage('assets/images/kjd_logo.png'),
+                    child: TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const HomePage(),
+                          ),
+                        );
+                      },
+                      child: Container(
+                        height: screenSize.height * 0.05,
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage('assets/images/kjd_logo.png'),
+                          ),
                         ),
                       ),
                     ),

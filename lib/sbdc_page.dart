@@ -111,6 +111,15 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                     ),
                     SizedBox(
                       width: screenSize.width * 0.3,
+                      child: TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const HomePage(),
+                          ),
+                        );
+                      },
                       child: Container(
                         height: screenSize.height * 0.05,
                         decoration: const BoxDecoration(
@@ -119,6 +128,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                           ),
                         ),
                       ),
+                    ),
                     ),
                     SizedBox(
                       width: screenSize.width * 0.05,
@@ -195,7 +205,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Flexible(
-                                    flex: 4,
+                                    flex: 5,
                                     child: Text(
                                       'Northland Small Business\nDevelopment Center Social\nMedia',
                                       style: kodchasan.copyWith(
@@ -227,34 +237,39 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                       children: [
                                         SizedBox(
                                           width: screenSize.width * 0.1,
-                                          child: Container(
-                                            padding: EdgeInsets.all(
-                                                screenSize.width * 0.001),
-                                            decoration: BoxDecoration(
-                                              color: ivory,
-                                              borderRadius:
-                                                  BorderRadius.circular(
-                                                      screenSize.width * 0.01),
-                                            ),
-                                            child: Row(
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.center,
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.center,
-                                              children: [
-                                                Icon(
-                                                  Icons.arrow_back_ios,
-                                                  color: orange,
-                                                ),
-                                                Text(
-                                                  'go back',
-                                                  style: kodchasan.copyWith(
-                                                      color: green,
-                                                      fontSize:
-                                                          screenSize.width *
-                                                              0.012),
-                                                ),
-                                              ],
+                                          child: TextButton(
+                                            onPressed: () {
+                                              Navigator.pop(context);
+                                            },
+                                            child: Container(
+                                              padding: EdgeInsets.all(
+                                                  screenSize.width * 0.001),
+                                              decoration: BoxDecoration(
+                                                color: ivory,
+                                                borderRadius:
+                                                    BorderRadius.circular(
+                                                        screenSize.width * 0.01),
+                                              ),
+                                              child: Row(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment.center,
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.center,
+                                                children: [
+                                                  Icon(
+                                                    Icons.arrow_back_ios,
+                                                    color: orange,
+                                                  ),
+                                                  Text(
+                                                    'go back',
+                                                    style: kodchasan.copyWith(
+                                                        color: green,
+                                                        fontSize:
+                                                            screenSize.width *
+                                                                0.012),
+                                                  ),
+                                                ],
+                                              ),
                                             ),
                                           ),
                                         ),

@@ -5,14 +5,14 @@ import 'package:kelsey_website/home_page.dart';
 import 'package:kelsey_website/projects_page.dart';
 import 'package:kelsey_website/styles.dart';
 
-class MinnoWorksPage extends StatefulWidget {
-  const MinnoWorksPage({super.key});
+class ESWorksPage extends StatefulWidget {
+  const ESWorksPage({super.key});
 
   @override
-  State<MinnoWorksPage> createState() => _MinnoWorksPageState();
+  State<ESWorksPage> createState() => _ESWorksPageState();
 }
 
-class _MinnoWorksPageState extends State<MinnoWorksPage> {
+class _ESWorksPageState extends State<ESWorksPage> {
   _expandImage(String image) {
     showDialog(
       context: context,
@@ -55,7 +55,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
       body: SingleChildScrollView(
         child: Container(
           width: screenSize.width,
-          height: screenSize.height * 2.5,
+          height: screenSize.height * 2,
           decoration: BoxDecoration(
             color: green,
           ),
@@ -187,7 +187,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
               ),
               SizedBox(
                 width: screenSize.width,
-                height: screenSize.height * 2,
+                height: screenSize.height * 1.5,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -212,9 +212,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Flexible(
-                                    flex: 5,
+                                    flex: 4,
                                     child: Text(
-                                      'Minno-ette &\nMinno-ette Liquor\nSocial Media',
+                                      'Eversmiles Pediatric Dentistry\nSocial Media',
                                       style: kodchasan.copyWith(
                                           color: orange,
                                           fontSize: screenSize.width * 0.02,
@@ -226,7 +226,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                   Flexible(
                                     flex: 10,
                                     child: Text(
-                                      'The Minno-ette and Minno-ette Liquor are a joint convenience store run by my\nboss and owner of PVA Briana Manning and Jason Manning, host of the KQDS FM\nMorning Show. They are essentially a one-stop shop for gas, snacks, food, and\ndrinks, bait, and alcohol. They are primarily seen as the same business, but all\ncontent relating to alcohol is specific to Minno-ette Liquor, but otherwise all\ncurrent events and happenings were posted on both social media accounts with\ntheir own branding. Additionally, I had the opportunity to work on the Fishing\nOpener Campaign for The Minno-ette, so for the majority of late April and early\nMay I created many more social graphics, banners, merchandise, and more for\nFishing opener on May 13th. The Minno-ette and Minno-ette Liquor content\ncreation was largely my responsibility, but the events and happenings that\npopped up throughout my time with the company were prompted by the\nbusiness owner Briana Manning. All graphics created with the direction and\noversight of my supervisor Melissa Saice, Art Director.',
+                                      'Eversmiles Pediatric Dentistry is a Dental office that specifically sees children\nand teens, and more specifically is trained to treat youth with special needs.\nThroughout my internship, I handled their social media content and blog content.\nTheir social media was especially fun to work with due to their illustration-heavy\ngraphic content. I was able to utilize Adobe Illustrator more than any other client I\nhad the opportunity to work with. As a designer, I greatly enjoy the projects that\nEversmile\'s creation was largely my responsibility, but the events and happenings\nthat popped up throughout my time with the company were prompted by the\nbusiness owner Briana Manning. All graphics created with the direction and\noversight of my supervisor Melissa Saice, Art Director.',
                                       style: kodchasan.copyWith(
                                           color: ivory,
                                           fontSize: screenSize.width * 0.008),
@@ -255,7 +255,8 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                                 color: ivory,
                                                 borderRadius:
                                                     BorderRadius.circular(
-                                                        screenSize.width * 0.01),
+                                                        screenSize.width *
+                                                            0.01),
                                               ),
                                               child: Row(
                                                 mainAxisAlignment:
@@ -311,7 +312,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                           Flexible(
                             flex: 2,
                             child: Text(
-                              'Minno-ette Work Highlights',
+                              'Eversmiles Work Highlights',
                               style: kodchasan.copyWith(
                                   color: orange,
                                   fontWeight: FontWeight.w700,
@@ -331,7 +332,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/minno1.jpg',
+                                        'assets/images/es1.png',
                                       );
                                     },
                                     child: Container(
@@ -342,7 +343,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         child: Flexible(
                                           flex: 3,
                                           child: Image.asset(
-                                            'assets/images/minno1.jpg',
+                                            'assets/images/es1.png',
                                             fit: BoxFit.fitHeight,
                                           ),
                                         ),
@@ -356,7 +357,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/minno2.png',
+                                        'assets/images/es2.png',
                                       );
                                     },
                                     child: Container(
@@ -367,7 +368,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         child: Flexible(
                                           flex: 3,
                                           child: Image.asset(
-                                            'assets/images/minno2.png',
+                                            'assets/images/es2.png',
                                             fit: BoxFit.fitHeight,
                                           ),
                                         ),
@@ -381,7 +382,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/minno3.png',
+                                        'assets/images/es3.jpg',
                                       );
                                     },
                                     child: Container(
@@ -392,93 +393,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         child: Flexible(
                                           flex: 3,
                                           child: Image.asset(
-                                            'assets/images/minno3.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                              ],
-                            ),
-                          ),
-                          const Spacer(flex: 1),
-                          Flexible(
-                            flex: 10,
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/minno4.png',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno4.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/minno5.png',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno5.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/minno6.png',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno6.png',
+                                            'assets/images/es3.jpg',
                                             fit: BoxFit.fitHeight,
                                           ),
                                         ),
@@ -503,7 +418,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/minno7.png',
+                                        'assets/images/es4.png',
                                       );
                                     },
                                     child: Container(
@@ -514,7 +429,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         child: Flexible(
                                           flex: 3,
                                           child: Image.asset(
-                                            'assets/images/minno7.png',
+                                            'assets/images/es4.png',
                                             fit: BoxFit.fitHeight,
                                           ),
                                         ),
@@ -528,7 +443,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/minno8.png',
+                                        'assets/images/es5.png',
                                       );
                                     },
                                     child: Container(
@@ -539,7 +454,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         child: Flexible(
                                           flex: 3,
                                           child: Image.asset(
-                                            'assets/images/minno8.png',
+                                            'assets/images/es5.png',
                                             fit: BoxFit.fitHeight,
                                           ),
                                         ),
@@ -553,7 +468,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/minno9.jpg',
+                                        'assets/images/es6.png',
                                       );
                                     },
                                     child: Container(
@@ -564,190 +479,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         child: Flexible(
                                           flex: 3,
                                           child: Image.asset(
-                                            'assets/images/minno9.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                              ],
-                            ),
-                          ),
-                          const Spacer(flex: 1),
-                          Flexible(
-                            flex: 10,
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/minno10.jpg',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno10.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/minno11.jpg',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno11.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/minno12.jpg',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno12.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                              ],
-                            ),
-                          ),
-                          const Spacer(flex: 1),
-                          Flexible(
-                            flex: 2,
-                            child: Text(
-                              'Minno-ette Liquor Work Highlights',
-                              style: kodchasan.copyWith(
-                                  color: orange,
-                                  fontWeight: FontWeight.w700,
-                                  fontSize: screenSize.width * 0.02),
-                            ),
-                          ),
-                          const Spacer(flex: 1),
-                          Flexible(
-                            flex: 10,
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/minno13.png',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno13.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/minno14.jpg',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno14.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/minno15.png',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno15.png',
+                                            'assets/images/es6.png',
                                             fit: BoxFit.fitHeight,
                                           ),
                                         ),
@@ -772,7 +504,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/minno16.jpg',
+                                        'assets/images/es7.png',
                                       );
                                     },
                                     child: Container(
@@ -783,7 +515,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         child: Flexible(
                                           flex: 3,
                                           child: Image.asset(
-                                            'assets/images/minno16.jpg',
+                                            'assets/images/es7.png',
                                             fit: BoxFit.fitHeight,
                                           ),
                                         ),
@@ -797,7 +529,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/minno17.jpg',
+                                        'assets/images/es8.png',
                                       );
                                     },
                                     child: Container(
@@ -808,7 +540,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         child: Flexible(
                                           flex: 3,
                                           child: Image.asset(
-                                            'assets/images/minno17.jpg',
+                                            'assets/images/es8.png',
                                             fit: BoxFit.fitHeight,
                                           ),
                                         ),
@@ -822,7 +554,7 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/minno18.png',
+                                        'assets/images/es9.png',
                                       );
                                     },
                                     child: Container(
@@ -833,7 +565,93 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         child: Flexible(
                                           flex: 3,
                                           child: Image.asset(
-                                            'assets/images/minno18.png',
+                                            'assets/images/es9.png',
+                                            fit: BoxFit.fitHeight,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                const Spacer(flex: 1),
+                              ],
+                            ),
+                          ),
+                          const Spacer(flex: 1),
+                          Flexible(
+                            flex: 10,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                const Spacer(flex: 1),
+                                Flexible(
+                                  flex: 8,
+                                  child: TextButton(
+                                    onPressed: () {
+                                      _expandImage(
+                                        'assets/images/es10.jpg',
+                                      );
+                                    },
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: grue,
+                                      ),
+                                      child: Center(
+                                        child: Flexible(
+                                          flex: 3,
+                                          child: Image.asset(
+                                            'assets/images/es10.jpg',
+                                            fit: BoxFit.fitHeight,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                const Spacer(flex: 1),
+                                Flexible(
+                                  flex: 8,
+                                  child: TextButton(
+                                    onPressed: () {
+                                      _expandImage(
+                                        'assets/images/es11.jpg',
+                                      );
+                                    },
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: grue,
+                                      ),
+                                      child: Center(
+                                        child: Flexible(
+                                          flex: 3,
+                                          child: Image.asset(
+                                            'assets/images/es11.jpg',
+                                            fit: BoxFit.fitHeight,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                const Spacer(flex: 1),
+                                Flexible(
+                                  flex: 8,
+                                  child: TextButton(
+                                    onPressed: () {
+                                      _expandImage(
+                                        'assets/images/es12.png',
+                                      );
+                                    },
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: grue,
+                                      ),
+                                      child: Center(
+                                        child: Flexible(
+                                          flex: 3,
+                                          child: Image.asset(
+                                            'assets/images/es12.png',
                                             fit: BoxFit.fitHeight,
                                           ),
                                         ),

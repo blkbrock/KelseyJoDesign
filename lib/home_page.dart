@@ -79,11 +79,21 @@ class _HomePageState extends State<HomePage> {
                   ),
                   SizedBox(
                     width: screenSize.width * 0.3,
-                    child: Container(
-                      height: screenSize.height * 0.05,
-                      decoration: const BoxDecoration(
-                        image: DecorationImage(
-                          image: AssetImage('assets/images/kjd_logo.png'),
+                    child: TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const HomePage(),
+                          ),
+                        );
+                      },
+                      child: Container(
+                        height: screenSize.height * 0.05,
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage('assets/images/kjd_logo.png'),
+                          ),
                         ),
                       ),
                     ),
@@ -146,18 +156,28 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(
-                    padding: EdgeInsets.symmetric(vertical: screenSize.width * 0.005, horizontal: screenSize.width * 0.02),
-                    decoration: BoxDecoration(
-                      color: green,
-                      borderRadius: BorderRadius.circular(screenSize.width * 0.02),
-                    ),
-                    child: Text(
-                      'my works',
-                      style: TextStyle(
-                          color: ivory,
-                          fontSize: screenSize.width * 0.025,
-                          letterSpacing: screenSize.width * 0.001),
+                  TextButton(
+                    onPressed: () { 
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const ProjectsPage(),
+                        ),
+                      );
+                    },
+                    child: Container(
+                      padding: EdgeInsets.symmetric(vertical: screenSize.width * 0.005, horizontal: screenSize.width * 0.02),
+                      decoration: BoxDecoration(
+                        color: green,
+                        borderRadius: BorderRadius.circular(screenSize.width * 0.02),
+                      ),
+                      child: Text(
+                        'my works',
+                        style: TextStyle(
+                            color: ivory,
+                            fontSize: screenSize.width * 0.025,
+                            letterSpacing: screenSize.width * 0.001),
+                      ),
                     ),
                   ),
                 ],
@@ -166,9 +186,9 @@ class _HomePageState extends State<HomePage> {
             SizedBox(
               height: screenSize.height * 0.02,
             ),
-            Container(
+            SizedBox(
               width: screenSize.width,
-              height: screenSize.height * 0.15,
+              height: screenSize.height * 0.12,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -181,7 +201,7 @@ class _HomePageState extends State<HomePage> {
                     iconSize: screenSize.width * 0.05,
                   ),
                   SizedBox(
-                    width: screenSize.width * 0.05,
+                    width: screenSize.width * 0.1,
                   ),
                   IconButton(
                     onPressed: () {},
@@ -191,7 +211,7 @@ class _HomePageState extends State<HomePage> {
                     iconSize: screenSize.width * 0.05,
                   ),
                   SizedBox(
-                    width: screenSize.width * 0.05,
+                    width: screenSize.width * 0.1,
                   ),
                   IconButton(
                     onPressed: () {},

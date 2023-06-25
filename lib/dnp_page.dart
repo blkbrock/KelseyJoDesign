@@ -111,6 +111,15 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                     ),
                     SizedBox(
                       width: screenSize.width * 0.3,
+                      child: TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const HomePage(),
+                          ),
+                        );
+                      },
                       child: Container(
                         height: screenSize.height * 0.05,
                         decoration: const BoxDecoration(
@@ -119,6 +128,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                           ),
                         ),
                       ),
+                    ),
                     ),
                     SizedBox(
                       width: screenSize.width * 0.05,
@@ -226,36 +236,41 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                     children: [
                                       SizedBox(
                                         width: screenSize.width * 0.1,
-                                        child: Container(
-                                          padding: EdgeInsets.all(
-                                              screenSize.width * 0.001),
-                                          decoration: BoxDecoration(
-                                            color: ivory,
-                                            borderRadius:
-                                                BorderRadius.circular(
-                                                    screenSize.width * 0.01),
-                                          ),
-                                          child: Row(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.center,
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.center,
-                                            children: [
-                                              Icon(
-                                                Icons.arrow_back_ios,
-                                                color: orange,
+                                        child: TextButton(
+                                            onPressed: () {
+                                              Navigator.pop(context);
+                                            },
+                                            child: Container(
+                                              padding: EdgeInsets.all(
+                                                  screenSize.width * 0.001),
+                                              decoration: BoxDecoration(
+                                                color: ivory,
+                                                borderRadius:
+                                                    BorderRadius.circular(
+                                                        screenSize.width * 0.01),
                                               ),
-                                              Text(
-                                                'go back',
-                                                style: kodchasan.copyWith(
-                                                    color: green,
-                                                    fontSize:
-                                                        screenSize.width *
-                                                            0.012),
+                                              child: Row(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment.center,
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.center,
+                                                children: [
+                                                  Icon(
+                                                    Icons.arrow_back_ios,
+                                                    color: orange,
+                                                  ),
+                                                  Text(
+                                                    'go back',
+                                                    style: kodchasan.copyWith(
+                                                        color: green,
+                                                        fontSize:
+                                                            screenSize.width *
+                                                                0.012),
+                                                  ),
+                                                ],
                                               ),
-                                            ],
+                                            ),
                                           ),
-                                        ),
                                       ),
                                     ],
                                   ),
