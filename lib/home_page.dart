@@ -173,7 +173,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       child: Text(
                         'my works',
-                        style: TextStyle(
+                        style: kodchasan.copyWith(
                             color: ivory,
                             fontSize: screenSize.width * 0.025,
                             letterSpacing: screenSize.width * 0.001),
