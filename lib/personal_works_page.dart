@@ -278,30 +278,35 @@ class _PersonalWorksPageState extends State<PersonalWorksPage> {
                               const Spacer(flex: 1),
                               SizedBox(
                                 width: screenSize.width * 0.12,
-                                child: Container(
-                                  padding:
-                                      EdgeInsets.all(screenSize.width * 0.005),
-                                  decoration: BoxDecoration(
-                                    color: ivory,
-                                    borderRadius: BorderRadius.circular(
-                                        screenSize.width * 0.01),
-                                  ),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.arrow_back_ios,
-                                        color: orange,
-                                      ),
-                                      Text(
-                                        'go back',
-                                        style: kodchasan.copyWith(
-                                            color: green,
-                                            fontSize: screenSize.width * 0.02),
-                                      ),
-                                    ],
+                                child: TextButton(
+                                  onPressed: () {
+                                    Navigator.pop(context);
+                                  },
+                                  child: Container(
+                                    padding:
+                                        EdgeInsets.all(screenSize.width * 0.005),
+                                    decoration: BoxDecoration(
+                                      color: ivory,
+                                      borderRadius: BorderRadius.circular(
+                                          screenSize.width * 0.01),
+                                    ),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        Icon(
+                                          Icons.arrow_back_ios,
+                                          color: orange,
+                                        ),
+                                        Text(
+                                          'go back',
+                                          style: kodchasan.copyWith(
+                                              color: green,
+                                              fontSize: screenSize.width * 0.02),
+                                        ),
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ),
