@@ -224,6 +224,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                           fontWeight: FontWeight.w700),
                                       textAlign: TextAlign.center,),
                                 ),
+                                const Spacer(flex: 1),
                                 Flexible(
                                   flex: 10,
                                   child: Text(
@@ -234,6 +235,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                     textAlign: TextAlign.center,
                                   ),
                                 ),
+                                const Spacer(flex: 1),
                                 SizedBox(
                                   height: screenSize.height * 0.04,
                                   child: Row(
