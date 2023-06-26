@@ -340,12 +340,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es1.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es1.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -365,12 +362,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es2.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es2.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -390,12 +384,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es3.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es3.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -426,12 +417,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es4.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es4.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -451,12 +439,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es5.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es5.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -476,12 +461,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es6.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es6.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -512,12 +494,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es7.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es7.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -537,12 +516,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es8.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es8.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -562,12 +538,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es9.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es9.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -598,12 +571,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es10.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es10.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -623,12 +593,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es11.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es11.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -648,12 +615,9 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/es12.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/es12.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),

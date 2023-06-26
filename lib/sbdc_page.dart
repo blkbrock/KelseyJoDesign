@@ -339,12 +339,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc2.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc2.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -364,12 +361,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc4.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc4.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -389,12 +383,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc6.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc6.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -414,12 +405,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc8.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc8.jpg',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -439,12 +427,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc10.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc10.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -464,12 +449,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc12.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc12.jpg',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -499,12 +481,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc3.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc3.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -524,12 +503,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc5.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc5.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -549,12 +525,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc7.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc7.jpg',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -574,12 +547,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc9.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc9.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -599,12 +569,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc11.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc11.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -624,12 +591,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/sbdc13.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/sbdc13.jpg',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -653,12 +617,9 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 1,
-                                          child: Image.asset(
-                                            'assets/images/sbdc1.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/sbdc1.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),

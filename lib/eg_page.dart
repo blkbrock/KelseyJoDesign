@@ -327,7 +327,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                               children: [
                                 const Spacer(flex: 1),
                                 Flexible(
-                                  flex: 16,
+                                  flex: 17,
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
@@ -339,12 +339,9 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/eg1.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/eg1.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -364,12 +361,9 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/eg2.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/eg2.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -400,12 +394,9 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/eg3.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/eg3.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -425,12 +416,9 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/eg4.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/eg4.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -450,12 +438,9 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/eg5.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/eg5.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -486,12 +471,9 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/eg6.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/eg6.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -511,12 +493,9 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/eg7.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/eg7.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -536,12 +515,9 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/eg8.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/eg8.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -572,12 +548,9 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/eg9.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/eg9.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -597,12 +570,9 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/eg10.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/eg10.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -622,12 +592,9 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/eg11.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/eg11.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),

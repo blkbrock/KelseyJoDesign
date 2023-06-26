@@ -208,84 +208,82 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                         children: [
                           Flexible(
                             flex: 3,
-                            child: Container(
-                              child: Column(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceAround,
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Flexible(
-                                    flex: 4,
-                                    child: Text(
-                                        'Pearson Von Elbe Advertising\n& Footprint Promotional\nAdvertising Social Media',
-                                        style: kodchasan.copyWith(
-                                            color: orange,
-                                            fontSize: screenSize.width * 0.015,
-                                            fontWeight: FontWeight.w700),
-                                        textAlign: TextAlign.center,),
-                                  ),
-                                  Flexible(
-                                    flex: 10,
-                                    child: Text(
-                                      'Pearson Von Elbe Advertising was the advertising agency I was interning for\nofficially, but Footprint Promotional Advertising was a sister company of the\nbusiness and was a large part of my responsibilities. For these two social media\naccounts, I was responsible for a variety of promotional content including but not\nlimited to Marketing Mondays & internal happenings for PVA, product promotion\nand campaigns for Footprint, as well as general and holiday postings for each.\nThese social media accounts were all internal and content creation was largely my\nresponsibility, but the events and happenings that popped up throughout my\ntime with the company were prompted by the business owner Briana Manning. All\ngraphics created with the direction and oversight of my supervisor Melissa\nSaice, Art Director.',
+                            child: Column(
+                              mainAxisAlignment:
+                                  MainAxisAlignment.start,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                Flexible(
+                                  flex: 4,
+                                  child: Text(
+                                      'Pearson Von Elbe Advertising\n& Footprint Promotional\nAdvertising Social Media',
                                       style: kodchasan.copyWith(
-                                          color: ivory,
-                                          fontSize: screenSize.width * 0.008),
-                                      textAlign: TextAlign.center,
-                                    ),
+                                          color: orange,
+                                          fontSize: screenSize.width * 0.015,
+                                          fontWeight: FontWeight.w700),
+                                      textAlign: TextAlign.center,),
+                                ),
+                                Flexible(
+                                  flex: 10,
+                                  child: Text(
+                                    'Pearson Von Elbe Advertising was the advertising agency I was interning for\nofficially, but Footprint Promotional Advertising was a sister company of the\nbusiness and was a large part of my responsibilities. For these two social media\naccounts, I was responsible for a variety of promotional content including but not\nlimited to Marketing Mondays & internal happenings for PVA, product promotion\nand campaigns for Footprint, as well as general and holiday postings for each.\nThese social media accounts were all internal and content creation was largely my\nresponsibility, but the events and happenings that popped up throughout my\ntime with the company were prompted by the business owner Briana Manning. All\ngraphics created with the direction and oversight of my supervisor Melissa\nSaice, Art Director.',
+                                    style: kodchasan.copyWith(
+                                        color: ivory,
+                                        fontSize: screenSize.width * 0.008),
+                                    textAlign: TextAlign.center,
                                   ),
-                                  SizedBox(
-                                    height: screenSize.height * 0.04,
-                                    child: Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      children: [
-                                        SizedBox(
-                                          width: screenSize.width * 0.1,
-                                          child: TextButton(
-                                            onPressed: () {
-                                              Navigator.pop(context);
-                                            },
-                                            child: Container(
-                                              padding: EdgeInsets.all(
-                                                  screenSize.width * 0.001),
-                                              decoration: BoxDecoration(
-                                                color: ivory,
-                                                borderRadius:
-                                                    BorderRadius.circular(
-                                                        screenSize.width * 0.01),
-                                              ),
-                                              child: Row(
-                                                mainAxisAlignment:
-                                                    MainAxisAlignment.center,
-                                                crossAxisAlignment:
-                                                    CrossAxisAlignment.center,
-                                                children: [
-                                                  Icon(
-                                                    Icons.arrow_back_ios,
-                                                    color: orange,
-                                                  ),
-                                                  Text(
-                                                    'go back',
-                                                    style: kodchasan.copyWith(
-                                                        color: green,
-                                                        fontSize:
-                                                            screenSize.width *
-                                                                0.012),
-                                                  ),
-                                                ],
-                                              ),
+                                ),
+                                SizedBox(
+                                  height: screenSize.height * 0.04,
+                                  child: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    children: [
+                                      SizedBox(
+                                        width: screenSize.width * 0.1,
+                                        child: TextButton(
+                                          onPressed: () {
+                                            Navigator.pop(context);
+                                          },
+                                          child: Container(
+                                            padding: EdgeInsets.all(
+                                                screenSize.width * 0.001),
+                                            decoration: BoxDecoration(
+                                              color: ivory,
+                                              borderRadius:
+                                                  BorderRadius.circular(
+                                                      screenSize.width * 0.01),
+                                            ),
+                                            child: Row(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              children: [
+                                                Icon(
+                                                  Icons.arrow_back_ios,
+                                                  color: orange,
+                                                ),
+                                                Text(
+                                                  'go back',
+                                                  style: kodchasan.copyWith(
+                                                      color: green,
+                                                      fontSize:
+                                                          screenSize.width *
+                                                              0.012),
+                                                ),
+                                              ],
                                             ),
                                           ),
                                         ),
-                                      ],
-                                    ),
+                                      ),
+                                    ],
                                   ),
-                                ],
-                              ),
+                                ),
+                              ],
                             ),
                           ),
                           Flexible(
@@ -305,7 +303,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                     Flexible(
                       flex: 6,
                       child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisSize: MainAxisSize.max,
                         children: [
@@ -338,12 +336,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/pva1.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/pva1.jpg',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -363,12 +358,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/pva2.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/pva2.jpg',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -388,12 +380,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/pva3.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/pva3.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -424,12 +413,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/pva4.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/pva4.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -449,12 +435,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/pva5.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/pva5.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -474,12 +457,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/pva6.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/pva6.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -519,12 +499,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/fp1.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/fp1.jpg',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -544,12 +521,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/fp2.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/fp2.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -569,12 +543,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/fp3.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/fp3.jpg',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -605,12 +576,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/fp4.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/fp4.jpg',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -630,12 +598,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/fp5.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/fp5.png',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -655,12 +620,9 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/fp6.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/fp6.jpg',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),

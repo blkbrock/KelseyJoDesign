@@ -339,12 +339,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno1.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno1.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -364,12 +361,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno2.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno2.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -389,12 +383,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno3.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno3.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -425,12 +416,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno4.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno4.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -450,12 +438,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno5.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno5.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -475,12 +460,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno6.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno6.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -511,12 +493,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno7.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno7.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -536,12 +515,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno8.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno8.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -561,12 +537,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno9.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno9.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -597,12 +570,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno10.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno10.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -622,12 +592,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno11.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno11.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -647,12 +614,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno12.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno12.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -694,12 +658,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno13.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno13.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -719,12 +680,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno14.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno14.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -744,12 +702,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno15.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno15.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -780,12 +735,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno16.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno16.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -805,12 +757,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno17.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno17.jpg',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -830,12 +779,9 @@ class _MinnoWorksPageState extends State<MinnoWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/minno18.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/minno18.png',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
