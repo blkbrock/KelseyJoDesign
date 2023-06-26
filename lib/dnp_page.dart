@@ -330,7 +330,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp1.png',
+                                              'assets/images/webp/dnp1.webp',
                                             );
                                           },
                                           child: Container(
@@ -338,12 +338,31 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/dnp1.png',
+                                              child: Image.asset(
+                                                  'assets/images/webp/dnp1.webp',
                                                   fit: BoxFit.fitHeight,
                                                 ),
+                                            ),
+                                            ),
+                                          ),
+                                        ),
+                                      const Spacer(flex: 1),
+                                      Flexible(
+                                        flex: 8,
+                                        child: TextButton(
+                                          onPressed: () {
+                                            _expandImage(
+                                              'assets/images/webp/dnp4.webp',
+                                            );
+                                          },
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              color: grue,
+                                            ),
+                                            child: Center(
+                                              child: Image.asset(
+                                                'assets/images/webp/dnp4.webp',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -355,7 +374,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp4.jpg',
+                                              'assets/images/webp/dnp6.webp',
                                             );
                                           },
                                           child: Container(
@@ -363,37 +382,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/dnp4.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
-                                              ),
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                      const Spacer(flex: 1),
-                                      Flexible(
-                                        flex: 8,
-                                        child: TextButton(
-                                          onPressed: () {
-                                            _expandImage(
-                                              'assets/images/dnp6.png',
-                                            );
-                                          },
-                                          child: Container(
-                                            decoration: BoxDecoration(
-                                              color: grue,
-                                            ),
-                                            child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/dnp6.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/webp/dnp6.webp',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -415,7 +406,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp2.png',
+                                              'assets/images/webp/dnp2.webp',
                                             );
                                           },
                                           child: Container(
@@ -423,12 +414,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/dnp2.png',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/webp/dnp2.webp',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -440,7 +428,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp5.jpg',
+                                              'assets/images/webp/dnp5.webp',
                                             );
                                           },
                                           child: Container(
@@ -448,12 +436,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/dnp5.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/webp/dnp5.webp',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -465,7 +450,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp7.jpg',
+                                              'assets/images/webp/dnp7.webp',
                                             );
                                           },
                                           child: Container(
@@ -473,12 +458,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                               color: grue,
                                             ),
                                             child: Center(
-                                              child: Flexible(
-                                                flex: 3,
-                                                child: Image.asset(
-                                                  'assets/images/dnp7.jpg',
-                                                  fit: BoxFit.fitHeight,
-                                                ),
+                                              child: Image.asset(
+                                                'assets/images/webp/dnp7.webp',
+                                                fit: BoxFit.fitHeight,
                                               ),
                                             ),
                                           ),
@@ -493,7 +475,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp3.png',
+                                              'assets/images/webp/dnp3.webp',
                                             );
                                           },
                                     child: Container(
@@ -501,12 +483,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 1,
-                                          child: Image.asset(
-                                            'assets/images/dnp3.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/webp/dnp3.webp',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -529,7 +508,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp8.jpg',
+                                              'assets/images/webp/dnp8.webp',
                                             );
                                           },
                                     child: Container(
@@ -537,12 +516,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/dnp8.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/webp/dnp8.webp',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -554,7 +530,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp9.png',
+                                              'assets/images/webp/dnp9.webp',
                                             );
                                           },
                                     child: Container(
@@ -562,12 +538,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/dnp9.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/webp/dnp9.webp',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -579,7 +552,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp10.png',
+                                              'assets/images/webp/dnp10.webp',
                                             );
                                           },
                                     child: Container(
@@ -587,12 +560,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/dnp10.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/webp/dnp10.webp',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -615,7 +585,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp11.png',
+                                              'assets/images/webp/dnp11.webp',
                                             );
                                           },
                                     child: Container(
@@ -623,12 +593,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/dnp11.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/webp/dnp11.webp',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -640,7 +607,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp12.jpg',
+                                              'assets/images/webp/dnp12.webp',
                                             );
                                           },
                                     child: Container(
@@ -648,12 +615,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/dnp12.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/webp/dnp12.webp',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -665,7 +629,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp13.png',
+                                              'assets/images/webp/dnp13.webp',
                                             );
                                           },
                                     child: Container(
@@ -673,12 +637,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/dnp13.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/webp/dnp13.webp',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -701,7 +662,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp14.png',
+                                              'assets/images/webp/dnp14.webp',
                                             );
                                           },
                                     child: Container(
@@ -709,12 +670,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/dnp14.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/webp/dnp14.webp',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -726,7 +684,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp15.png',
+                                              'assets/images/webp/dnp15.webp',
                                             );
                                           },
                                     child: Container(
@@ -734,12 +692,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/dnp15.png',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/webp/dnp15.webp',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
@@ -751,7 +706,7 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                             _expandImage(
-                                              'assets/images/dnp16.jpg',
+                                              'assets/images/webp/dnp16.webp',
                                             );
                                           },
                                     child: Container(
@@ -759,12 +714,9 @@ class _DNPWorksPageState extends State<DNPWorksPage> {
                                         color: grue,
                                       ),
                                       child: Center(
-                                        child: Flexible(
-                                          flex: 3,
-                                          child: Image.asset(
-                                            'assets/images/dnp16.jpg',
-                                            fit: BoxFit.fitHeight,
-                                          ),
+                                        child: Image.asset(
+                                          'assets/images/webp/dnp16.webp',
+                                          fit: BoxFit.fitHeight,
                                         ),
                                       ),
                                     ),
