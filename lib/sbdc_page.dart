@@ -286,7 +286,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                               decoration: const BoxDecoration(
                                 image: DecorationImage(
                                     alignment: Alignment.bottomLeft,
-                                    image: AssetImage('assets/images/bg.png'),
+                                    image: AssetImage('assets/images/webp/bg.webp'),
                                     fit: BoxFit.fitHeight),
                               ),
                             ),
@@ -331,7 +331,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc2.png',
+                                              'assets/images/webp/sbdc2.webp',
                                             );
                                           },
                                           child: Container(
@@ -340,7 +340,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc2.png',
+                                                'assets/images/webp/sbdc2.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -353,7 +353,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc4.png',
+                                              'assets/images/webp/sbdc4.webp',
                                             );
                                           },
                                           child: Container(
@@ -362,7 +362,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc4.png',
+                                                'assets/images/webp/sbdc4.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -375,7 +375,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc6.png',
+                                              'assets/images/webp/sbdc6.webp',
                                             );
                                           },
                                           child: Container(
@@ -384,7 +384,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc6.png',
+                                                'assets/images/webp/sbdc6.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -397,7 +397,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc8.jpg',
+                                              'assets/images/webp/sbdc8.webp',
                                             );
                                           },
                                           child: Container(
@@ -406,7 +406,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc8.jpg',
+                                                'assets/images/webp/sbdc8.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -419,7 +419,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc10.png',
+                                              'assets/images/webp/sbdc10.webp',
                                             );
                                           },
                                           child: Container(
@@ -428,7 +428,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc10.png',
+                                                'assets/images/webp/sbdc10.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -441,7 +441,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc12.jpg',
+                                              'assets/images/webp/sbdc12.webp',
                                             );
                                           },
                                           child: Container(
@@ -450,7 +450,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc12.jpg',
+                                                'assets/images/webp/sbdc12.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -473,7 +473,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc3.png',
+                                              'assets/images/webp/sbdc3.webp',
                                             );
                                           },
                                           child: Container(
@@ -482,7 +482,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc3.png',
+                                                'assets/images/webp/sbdc3.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -495,7 +495,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc5.png',
+                                              'assets/images/webp/sbdc5.webp',
                                             );
                                           },
                                           child: Container(
@@ -504,7 +504,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc5.png',
+                                                'assets/images/webp/sbdc5.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -517,7 +517,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc7.jpg',
+                                              'assets/images/webp/sbdc7.webp',
                                             );
                                           },
                                           child: Container(
@@ -526,7 +526,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc7.jpg',
+                                                'assets/images/webp/sbdc7.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -539,7 +539,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc9.png',
+                                              'assets/images/webp/sbdc9.webp',
                                             );
                                           },
                                           child: Container(
@@ -548,7 +548,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc9.png',
+                                                'assets/images/webp/sbdc9.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -561,7 +561,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc11.png',
+                                              'assets/images/webp/sbdc11.webp',
                                             );
                                           },
                                           child: Container(
@@ -570,7 +570,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc11.png',
+                                                'assets/images/webp/sbdc11.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -583,7 +583,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                         child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc13.jpg',
+                                              'assets/images/webp/sbdc13.webp',
                                             );
                                           },
                                           child: Container(
@@ -592,7 +592,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/sbdc13.jpg',
+                                                'assets/images/webp/sbdc13.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -608,7 +608,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                             _expandImage(
-                                              'assets/images/sbdc1.png',
+                                              'assets/images/webp/sbdc1.webp',
                                             );
                                           },
                                     child: Container(
@@ -618,7 +618,7 @@ class _SBDCWorksPageState extends State<SBDCWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/sbdc1.png',
+                                          'assets/images/webp/sbdc1.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),

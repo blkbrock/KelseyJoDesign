@@ -294,7 +294,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                               decoration: const BoxDecoration(
                                 image: DecorationImage(
                                     alignment: Alignment.bottomLeft,
-                                    image: AssetImage('assets/images/bg.png'),
+                                    image: AssetImage('assets/images/webp/bg.webp'),
                                     fit: BoxFit.fitHeight),
                               ),
                             ),
@@ -332,7 +332,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/es1.png',
+                                        'assets/images/webp/es1.webp',
                                       );
                                     },
                                     child: Container(
@@ -341,7 +341,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/es1.png',
+                                          'assets/images/webp/es1.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -354,7 +354,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/es2.png',
+                                        'assets/images/webp/es2.webp',
                                       );
                                     },
                                     child: Container(
@@ -363,7 +363,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/es2.png',
+                                          'assets/images/webp/es2.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -376,7 +376,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/es3.jpg',
+                                        'assets/images/webp/es3.webp',
                                       );
                                     },
                                     child: Container(
@@ -385,84 +385,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/es3.jpg',
-                                          fit: BoxFit.fitHeight,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                              ],
-                            ),
-                          ),
-                          const Spacer(flex: 1),
-                          Flexible(
-                            flex: 10,
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/es4.png',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Image.asset(
-                                          'assets/images/es4.png',
-                                          fit: BoxFit.fitHeight,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/es5.png',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Image.asset(
-                                          'assets/images/es5.png',
-                                          fit: BoxFit.fitHeight,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/es6.png',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Image.asset(
-                                          'assets/images/es6.png',
+                                          'assets/images/webp/es3.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -486,7 +409,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/es7.png',
+                                        'assets/images/webp/es4.webp',
                                       );
                                     },
                                     child: Container(
@@ -495,7 +418,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/es7.png',
+                                          'assets/images/webp/es4.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -508,7 +431,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/es8.png',
+                                        'assets/images/webp/es5.webp',
                                       );
                                     },
                                     child: Container(
@@ -517,7 +440,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/es8.png',
+                                          'assets/images/webp/es5.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -530,7 +453,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/es9.png',
+                                        'assets/images/webp/es6.webp',
                                       );
                                     },
                                     child: Container(
@@ -539,7 +462,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/es9.png',
+                                          'assets/images/webp/es6.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -563,7 +486,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/es10.jpg',
+                                        'assets/images/webp/es7.webp',
                                       );
                                     },
                                     child: Container(
@@ -572,7 +495,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/es10.jpg',
+                                          'assets/images/webp/es7.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -585,7 +508,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/es11.jpg',
+                                        'assets/images/webp/es8.webp',
                                       );
                                     },
                                     child: Container(
@@ -594,7 +517,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/es11.jpg',
+                                          'assets/images/webp/es8.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -607,7 +530,7 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/es12.png',
+                                        'assets/images/webp/es9.webp',
                                       );
                                     },
                                     child: Container(
@@ -616,7 +539,84 @@ class _ESWorksPageState extends State<ESWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/es12.png',
+                                          'assets/images/webp/es9.webp',
+                                          fit: BoxFit.fitHeight,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                const Spacer(flex: 1),
+                              ],
+                            ),
+                          ),
+                          const Spacer(flex: 1),
+                          Flexible(
+                            flex: 10,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                const Spacer(flex: 1),
+                                Flexible(
+                                  flex: 8,
+                                  child: TextButton(
+                                    onPressed: () {
+                                      _expandImage(
+                                        'assets/images/webp/es10.webp',
+                                      );
+                                    },
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: grue,
+                                      ),
+                                      child: Center(
+                                        child: Image.asset(
+                                          'assets/images/webp/es10.webp',
+                                          fit: BoxFit.fitHeight,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                const Spacer(flex: 1),
+                                Flexible(
+                                  flex: 8,
+                                  child: TextButton(
+                                    onPressed: () {
+                                      _expandImage(
+                                        'assets/images/webp/es11.webp',
+                                      );
+                                    },
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: grue,
+                                      ),
+                                      child: Center(
+                                        child: Image.asset(
+                                          'assets/images/webp/es11.webp',
+                                          fit: BoxFit.fitHeight,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                const Spacer(flex: 1),
+                                Flexible(
+                                  flex: 8,
+                                  child: TextButton(
+                                    onPressed: () {
+                                      _expandImage(
+                                        'assets/images/webp/es12.webp',
+                                      );
+                                    },
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: grue,
+                                      ),
+                                      child: Center(
+                                        child: Image.asset(
+                                          'assets/images/webp/es12.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),

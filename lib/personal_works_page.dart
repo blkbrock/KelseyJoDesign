@@ -162,7 +162,7 @@ class _PersonalWorksPageState extends State<PersonalWorksPage> {
                       decoration: const BoxDecoration(
                         image: DecorationImage(
                             alignment: Alignment.centerLeft,
-                            image: AssetImage('assets/images/bg.png'),
+                            image: AssetImage('assets/images/webp/bg.webp'),
                             fit: BoxFit.fitHeight),
                       ),
                     ),
@@ -318,7 +318,7 @@ class _PersonalWorksPageState extends State<PersonalWorksPage> {
                       decoration: const BoxDecoration(
                         image: DecorationImage(
                             alignment: Alignment.centerRight,
-                            image: AssetImage('assets/images/bg.png'),
+                            image: AssetImage('assets/images/webp/bg.webp'),
                             fit: BoxFit.fitHeight),
                       ),
                     ),

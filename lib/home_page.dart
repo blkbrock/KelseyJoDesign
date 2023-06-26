@@ -147,7 +147,7 @@ class _HomePageState extends State<HomePage> {
               height: screenSize.height * 0.65,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/images/bg.png'),
+                  image: AssetImage('assets/images/webp/bg.webp'),
                   fit: BoxFit.fitWidth,
                   alignment: Alignment.center,
                 ),

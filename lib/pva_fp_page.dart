@@ -292,7 +292,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                               decoration: const BoxDecoration(
                                 image: DecorationImage(
                                     alignment: Alignment.bottomLeft,
-                                    image: AssetImage('assets/images/bg.png'),
+                                    image: AssetImage('assets/images/webp/bg.webp'),
                                     fit: BoxFit.fitHeight),
                               ),
                             ),
@@ -328,7 +328,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/pva1.jpg',
+                                              'assets/images/webp/pva1.webp',
                                             );
                                           },
                                           child: Container(
@@ -337,7 +337,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/pva1.jpg',
+                                                'assets/images/webp/pva1.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -350,7 +350,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/pva2.jpg',
+                                              'assets/images/webp/pva2.webp',
                                             );
                                           },
                                           child: Container(
@@ -359,7 +359,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/pva2.jpg',
+                                                'assets/images/webp/pva2.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -372,7 +372,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/pva3.png',
+                                              'assets/images/webp/pva3.webp',
                                             );
                                           },
                                           child: Container(
@@ -381,7 +381,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/pva3.png',
+                                                'assets/images/webp/pva3.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -405,7 +405,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/pva4.png',
+                                              'assets/images/webp/pva4.webp',
                                             );
                                           },
                                           child: Container(
@@ -414,7 +414,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/pva4.png',
+                                                'assets/images/webp/pva4.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -427,7 +427,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/pva5.png',
+                                              'assets/images/webp/pva5.webp',
                                             );
                                           },
                                           child: Container(
@@ -436,7 +436,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/pva5.png',
+                                                'assets/images/webp/pva5.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -449,7 +449,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/pva6.png',
+                                              'assets/images/webp/pva6.webp',
                                             );
                                           },
                                           child: Container(
@@ -458,7 +458,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/pva6.png',
+                                                'assets/images/webp/pva6.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -491,7 +491,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/fp1.jpg',
+                                              'assets/images/webp/fp1.webp',
                                             );
                                           },
                                           child: Container(
@@ -500,7 +500,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/fp1.jpg',
+                                                'assets/images/webp/fp1.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -513,7 +513,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/fp2.png',
+                                              'assets/images/webp/fp2.webp',
                                             );
                                           },
                                           child: Container(
@@ -522,7 +522,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/fp2.png',
+                                                'assets/images/webp/fp2.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -535,7 +535,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/fp3.jpg',
+                                              'assets/images/webp/fp3.webp',
                                             );
                                           },
                                           child: Container(
@@ -544,7 +544,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/fp3.jpg',
+                                                'assets/images/webp/fp3.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -568,7 +568,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/fp4.jpg',
+                                              'assets/images/webp/fp4.webp',
                                             );
                                           },
                                           child: Container(
@@ -577,7 +577,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/fp4.jpg',
+                                                'assets/images/webp/fp4.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -590,7 +590,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/fp5.png',
+                                              'assets/images/webp/fp5.webp',
                                             );
                                           },
                                           child: Container(
@@ -599,7 +599,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/fp5.png',
+                                                'assets/images/webp/fp5.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),
@@ -612,7 +612,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                   child: TextButton(
                                           onPressed: () {
                                             _expandImage(
-                                              'assets/images/fp6.jpg',
+                                              'assets/images/webp/fp6.webp',
                                             );
                                           },
                                           child: Container(
@@ -621,7 +621,7 @@ class _PvaFpWorksPageState extends State<PvaFpWorksPage> {
                                             ),
                                             child: Center(
                                               child: Image.asset(
-                                                'assets/images/fp6.jpg',
+                                                'assets/images/webp/fp6.webp',
                                                 fit: BoxFit.fitHeight,
                                               ),
                                             ),

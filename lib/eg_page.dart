@@ -293,7 +293,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                               decoration: const BoxDecoration(
                                 image: DecorationImage(
                                     alignment: Alignment.bottomLeft,
-                                    image: AssetImage('assets/images/bg.png'),
+                                    image: AssetImage('assets/images/webp/bg.webp'),
                                     fit: BoxFit.fitHeight),
                               ),
                             ),
@@ -331,7 +331,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/eg1.png',
+                                        'assets/images/webp/eg1.webp',
                                       );
                                     },
                                     child: Container(
@@ -340,7 +340,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/eg1.png',
+                                          'assets/images/webp/eg1.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -353,7 +353,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/eg2.png',
+                                        'assets/images/webp/eg2.webp',
                                       );
                                     },
                                     child: Container(
@@ -362,84 +362,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/eg2.png',
-                                          fit: BoxFit.fitHeight,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                              ],
-                            ),
-                          ),
-                          const Spacer(flex: 1),
-                          Flexible(
-                            flex: 10,
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/eg3.jpg',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Image.asset(
-                                          'assets/images/eg3.jpg',
-                                          fit: BoxFit.fitHeight,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/eg4.jpg',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Image.asset(
-                                          'assets/images/eg4.jpg',
-                                          fit: BoxFit.fitHeight,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const Spacer(flex: 1),
-                                Flexible(
-                                  flex: 8,
-                                  child: TextButton(
-                                    onPressed: () {
-                                      _expandImage(
-                                        'assets/images/eg5.jpg',
-                                      );
-                                    },
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: grue,
-                                      ),
-                                      child: Center(
-                                        child: Image.asset(
-                                          'assets/images/eg5.jpg',
+                                          'assets/images/webp/eg2.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -463,7 +386,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/eg6.jpg',
+                                        'assets/images/webp/eg3.webp',
                                       );
                                     },
                                     child: Container(
@@ -472,7 +395,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/eg6.jpg',
+                                          'assets/images/webp/eg3.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -485,7 +408,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/eg7.png',
+                                        'assets/images/webp/eg4.webp',
                                       );
                                     },
                                     child: Container(
@@ -494,7 +417,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/eg7.png',
+                                          'assets/images/webp/eg4.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -507,7 +430,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/eg8.jpg',
+                                        'assets/images/webp/eg5.webp',
                                       );
                                     },
                                     child: Container(
@@ -516,7 +439,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/eg8.jpg',
+                                          'assets/images/webp/eg5.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -540,7 +463,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/eg9.png',
+                                        'assets/images/webp/eg6.webp',
                                       );
                                     },
                                     child: Container(
@@ -549,7 +472,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/eg9.png',
+                                          'assets/images/webp/eg6.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -562,7 +485,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/eg10.png',
+                                        'assets/images/webp/eg7.webp',
                                       );
                                     },
                                     child: Container(
@@ -571,7 +494,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/eg10.png',
+                                          'assets/images/webp/eg7.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
@@ -584,7 +507,7 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                   child: TextButton(
                                     onPressed: () {
                                       _expandImage(
-                                        'assets/images/eg11.png',
+                                        'assets/images/webp/eg8.webp',
                                       );
                                     },
                                     child: Container(
@@ -593,7 +516,84 @@ class _EGWorksPageState extends State<EGWorksPage> {
                                       ),
                                       child: Center(
                                         child: Image.asset(
-                                          'assets/images/eg11.png',
+                                          'assets/images/webp/eg8.webp',
+                                          fit: BoxFit.fitHeight,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                const Spacer(flex: 1),
+                              ],
+                            ),
+                          ),
+                          const Spacer(flex: 1),
+                          Flexible(
+                            flex: 10,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                const Spacer(flex: 1),
+                                Flexible(
+                                  flex: 8,
+                                  child: TextButton(
+                                    onPressed: () {
+                                      _expandImage(
+                                        'assets/images/webp/eg9.webp',
+                                      );
+                                    },
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: grue,
+                                      ),
+                                      child: Center(
+                                        child: Image.asset(
+                                          'assets/images/webp/eg9.webp',
+                                          fit: BoxFit.fitHeight,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                const Spacer(flex: 1),
+                                Flexible(
+                                  flex: 8,
+                                  child: TextButton(
+                                    onPressed: () {
+                                      _expandImage(
+                                        'assets/images/webp/eg10.webp',
+                                      );
+                                    },
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: grue,
+                                      ),
+                                      child: Center(
+                                        child: Image.asset(
+                                          'assets/images/webp/eg10.webp',
+                                          fit: BoxFit.fitHeight,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                const Spacer(flex: 1),
+                                Flexible(
+                                  flex: 8,
+                                  child: TextButton(
+                                    onPressed: () {
+                                      _expandImage(
+                                        'assets/images/webp/eg11.webp',
+                                      );
+                                    },
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: grue,
+                                      ),
+                                      child: Center(
+                                        child: Image.asset(
+                                          'assets/images/webp/eg11.webp',
                                           fit: BoxFit.fitHeight,
                                         ),
                                       ),
