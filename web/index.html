@@ -37,11 +37,11 @@
     var serviceWorkerVersion = null;
   </script>
   <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
+  <script src="main.dart.js" type="application/javascript" defer></script>
 </head>
 <body>
   <script>
-    window.addEventListener('load', function(ev) {
+    function onMainDartJsLoaded() {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
@@ -53,7 +53,7 @@
           });
         }
       });
-    });
+    }
   </script>
 </body>
 </html>
