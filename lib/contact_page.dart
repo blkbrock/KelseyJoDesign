@@ -1,9 +1,12 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:kelsey_website/about_page.dart';
 import 'package:kelsey_website/home_page.dart';
 import 'package:kelsey_website/projects_page.dart';
 import 'package:kelsey_website/styles.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class ContactPage extends StatefulWidget {
   const ContactPage({super.key});
@@ -13,6 +16,27 @@ class ContactPage extends StatefulWidget {
 }
 
 class _ContactPageState extends State<ContactPage> {
+  FirebaseFirestore firestore = FirebaseFirestore.instance;
+  CollectionReference contact =
+      FirebaseFirestore.instance.collection('Contacts');
+  String name = '', email = '', message = '';
+
+  // function to sendMessage to firestore
+  Future<void> sendMessage() {
+    return contact.add({
+      'name': name,
+      'email': email,
+      'message': message,
+    }).then((value) {
+      // ignore: avoid_print
+      print('Message sent');
+      const SnackBar(content: Center(child: Padding(
+        padding: EdgeInsets.all(16.0),
+        child: Text('Message sent!)'),
+      )));
+    }).catchError((error) => print('Failed to send message: $error'));
+  }
+
   @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.of(context).size;
@@ -20,7 +44,7 @@ class _ContactPageState extends State<ContactPage> {
       body: SingleChildScrollView(
         child: Container(
           width: screenSize.width,
-          height: screenSize.height*1.5,
+          height: screenSize.height * 1.5,
           decoration: BoxDecoration(
             color: green,
           ),
@@ -53,8 +77,7 @@ class _ContactPageState extends State<ContactPage> {
                         child: Text(
                           'home',
                           style: kodchasan.copyWith(
-                              color: ivory,
-                              fontSize: screenSize.width * 0.02),
+                              color: ivory, fontSize: screenSize.width * 0.02),
                         ),
                       ),
                     ),
@@ -86,23 +109,23 @@ class _ContactPageState extends State<ContactPage> {
                     SizedBox(
                       width: screenSize.width * 0.3,
                       child: TextButton(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const HomePage(),
-                          ),
-                        );
-                      },
-                      child: Container(
-                        height: screenSize.height * 0.05,
-                        decoration: const BoxDecoration(
-                          image: DecorationImage(
-                            image: AssetImage('assets/images/kjd_logo.png'),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const HomePage(),
+                            ),
+                          );
+                        },
+                        child: Container(
+                          height: screenSize.height * 0.05,
+                          decoration: const BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage('assets/images/kjd_logo.png'),
+                            ),
                           ),
                         ),
                       ),
-                    ),
                     ),
                     SizedBox(
                       width: screenSize.width * 0.05,
@@ -121,8 +144,7 @@ class _ContactPageState extends State<ContactPage> {
                         child: Text(
                           'about',
                           style: kodchasan.copyWith(
-                              color: ivory,
-                              fontSize: screenSize.width * 0.02),
+                              color: ivory, fontSize: screenSize.width * 0.02),
                         ),
                       ),
                     ),
@@ -143,8 +165,7 @@ class _ContactPageState extends State<ContactPage> {
                         child: Text(
                           'projects',
                           style: kodchasan.copyWith(
-                              color: ivory,
-                              fontSize: screenSize.width * 0.02),
+                              color: ivory, fontSize: screenSize.width * 0.02),
                         ),
                       ),
                     ),
@@ -215,6 +236,7 @@ class _ContactPageState extends State<ContactPage> {
                                       screenSize.width * 0.05),
                                 ),
                                 child: TextField(
+                                  onChanged: (value) => name = value,
                                   decoration: InputDecoration(
                                     border: InputBorder.none,
                                     hintText: 'name',
@@ -244,6 +266,7 @@ class _ContactPageState extends State<ContactPage> {
                                       screenSize.width * 0.05),
                                 ),
                                 child: TextField(
+                                  onChanged: (value) => email = value,
                                   decoration: InputDecoration(
                                     border: InputBorder.none,
                                     hintText: 'email',
@@ -273,6 +296,7 @@ class _ContactPageState extends State<ContactPage> {
                                       screenSize.width * 0.02),
                                 ),
                                 child: TextField(
+                                  onChanged: (value) => message = value,
                                   maxLines: 6,
                                   minLines: 6,
                                   decoration: InputDecoration(
@@ -304,17 +328,24 @@ class _ContactPageState extends State<ContactPage> {
                                       screenSize.width * 0.05),
                                 ),
                                 child: TextButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    if (name != '' &&
+                                        email != '' &&
+                                        message != '') {
+                                      sendMessage();
+                                    }
+                                  },
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
                                     children: [
                                       Text(
-                                          'send',
-                                          style: kodchasan.copyWith(
-                                              color: green,
-                                              fontSize: screenSize.width * 0.03),
-                                        ),
+                                        'send',
+                                        style: kodchasan.copyWith(
+                                            color: green,
+                                            fontSize: screenSize.width * 0.03),
+                                      ),
                                       SizedBox(
                                         width: screenSize.width * 0.01,
                                       ),
