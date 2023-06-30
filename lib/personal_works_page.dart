@@ -1,11 +1,13 @@
 import 'dart:js_util';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:kelsey_website/about_page.dart';
 import 'package:kelsey_website/contact_page.dart';
 import 'package:kelsey_website/home_page.dart';
 import 'package:kelsey_website/projects_page.dart';
 import 'package:kelsey_website/styles.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class PersonalWorksPage extends StatefulWidget {
   const PersonalWorksPage({super.key});
@@ -15,6 +17,16 @@ class PersonalWorksPage extends StatefulWidget {
 }
 
 class _PersonalWorksPageState extends State<PersonalWorksPage> {
+  final Uri _kelseyJoDesign = Uri(
+    scheme: 'https',
+    host: 'www.kelseyjodesigns.com',
+    path: '/projects/',
+  );
+
+  Future<void> _launchKJD() async {
+    launchUrl(_kelseyJoDesign);
+  }
+
   @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.of(context).size;
@@ -170,15 +182,89 @@ class _PersonalWorksPageState extends State<PersonalWorksPage> {
                   Flexible(
                     flex: 8,
                     child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
                       crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisSize: MainAxisSize.max,
                       children: [
-                        Flexible(
-                          flex: 10,
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
+                        Text(
+                          'This page is under construction!',
+                          style: kodchasan.copyWith(
+                            color: ivory,
+                            fontSize: screenSize.width * 0.03,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                                Text(
+                                  'Check out my old portfolio',
+                                  style: kodchasan.copyWith(
+                                    color: ivory,
+                                    fontSize: screenSize.width * 0.02,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                                TextButton(
+                                  onPressed: () {
+                                    _launchKJD();
+                                  },
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        'here',
+                                        style: kodchasan.copyWith(
+                                            color: orange,
+                                            fontSize: screenSize.width * 0.02),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                      Icon(
+                                        Icons.chevron_right,
+                                        color: orange,
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: screenSize.height * 0.1,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            const Spacer(flex: 1),
+                            Flexible(
+                              flex: 8,
+                              child: Stack(
+                                children: [
+                                  SvgPicture.asset(
+                                    'assets/svg/doinkdoink_fill.svg',
+                                    fit: BoxFit.fitHeight,
+                                    width: screenSize.width * 0.4,
+                                    height: screenSize.height * 0.4,
+                                    colorFilter: ColorFilter.mode(
+                                        ivory, BlendMode.srcATop),
+                                  ),
+                                  SvgPicture.asset(
+                                    'assets/svg/doinkdoink_outline.svg',
+                                    fit: BoxFit.fitHeight,
+                                    width: screenSize.width * 0.4,
+                                    height: screenSize.height * 0.4,
+                                    colorFilter: ColorFilter.mode(
+                                        orange, BlendMode.srcATop),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const Spacer(flex: 1),
+                            /**
                               const Spacer(flex: 1),
                               Flexible(
                                 flex: 8,
@@ -311,8 +397,8 @@ class _PersonalWorksPageState extends State<PersonalWorksPage> {
                                 ),
                               ),
                               const Spacer(flex: 5),
-                            ],
-                          ),
+                               */
+                          ],
                         ),
                       ],
                     ),
