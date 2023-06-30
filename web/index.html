@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -27,7 +28,7 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>kelsey_website</title>
   <link rel="manifest" href="manifest.json">
@@ -39,6 +40,7 @@
   <!-- This script adds the flutter initialization JS code -->
   <script src="main.dart.js" type="application/javascript" defer></script>
 </head>
+
 <body>
   <script>
     function onMainDartJsLoaded() {
@@ -47,13 +49,37 @@
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
             appRunner.runApp();
           });
         }
       });
     }
   </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBqrkJNn60NlxUw-04to2A-Lni4Qtry9Cs",
+      authDomain: "kelsey-website-b57c2.firebaseapp.com",
+      projectId: "kelsey-website-b57c2",
+      storageBucket: "kelsey-website-b57c2.appspot.com",
+      messagingSenderId: "498345059836",
+      appId: "1:498345059836:web:367befa5a96f5ec5d8be79",
+      measurementId: "G-FS93DSWDK3"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </body>
+
 </html>
