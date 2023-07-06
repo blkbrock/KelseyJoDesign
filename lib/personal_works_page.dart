@@ -19,8 +19,8 @@ class PersonalWorksPage extends StatefulWidget {
 class _PersonalWorksPageState extends State<PersonalWorksPage> {
   final Uri _kelseyJoDesign = Uri(
     scheme: 'https',
-    host: 'www.kelseyjodesigns.com',
-    path: '/projects/',
+    host: 'kelseyjodesigns.com',
+    path: '/projects',
   );
 
   Future<void> _launchKJD() async {
