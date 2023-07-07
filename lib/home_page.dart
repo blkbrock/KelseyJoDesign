@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:kelsey_website/about_page.dart';
 import 'package:kelsey_website/contact_page.dart';
 import 'package:kelsey_website/projects_page.dart';
+import 'package:kelsey_website/route.dart';
 import 'package:kelsey_website/styles.dart';
 
 class HomePage extends StatefulWidget {
@@ -194,7 +195,9 @@ class _HomePageState extends State<HomePage> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      launchIN();
+                    },
                     icon: Image.asset(
                       'assets/images/in_icon.png',
                     ),
@@ -204,7 +207,9 @@ class _HomePageState extends State<HomePage> {
                     width: screenSize.width * 0.1,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      launchIG();
+                    },
                     icon: Image.asset(
                       'assets/images/ig_icon.png',
                     ),
@@ -214,7 +219,9 @@ class _HomePageState extends State<HomePage> {
                     width: screenSize.width * 0.1,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      launchFB();
+                    },
                     icon: Image.asset(
                       'assets/images/fb_icon.png',
                     ),

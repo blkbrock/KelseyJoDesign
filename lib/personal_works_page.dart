@@ -6,6 +6,7 @@ import 'package:kelsey_website/about_page.dart';
 import 'package:kelsey_website/contact_page.dart';
 import 'package:kelsey_website/home_page.dart';
 import 'package:kelsey_website/projects_page.dart';
+import 'package:kelsey_website/route.dart';
 import 'package:kelsey_website/styles.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -17,15 +18,6 @@ class PersonalWorksPage extends StatefulWidget {
 }
 
 class _PersonalWorksPageState extends State<PersonalWorksPage> {
-  final Uri _kelseyJoDesign = Uri(
-    scheme: 'https',
-    host: 'kelseyjodesigns.com',
-    path: '/projects',
-  );
-
-  Future<void> _launchKJD() async {
-    launchUrl(_kelseyJoDesign);
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -209,7 +201,7 @@ class _PersonalWorksPageState extends State<PersonalWorksPage> {
                                 ),
                                 TextButton(
                                   onPressed: () {
-                                    _launchKJD();
+                                    launchKJD();
                                   },
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.center,
@@ -417,7 +409,7 @@ class _PersonalWorksPageState extends State<PersonalWorksPage> {
                 ],
               ),
             ),
-            Container(
+            SizedBox(
               width: screenSize.width,
               height: screenSize.height * 0.12,
               child: Row(
@@ -425,7 +417,9 @@ class _PersonalWorksPageState extends State<PersonalWorksPage> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      launchIN();
+                    },
                     icon: Image.asset(
                       'assets/images/in_icon.png',
                     ),
@@ -435,7 +429,9 @@ class _PersonalWorksPageState extends State<PersonalWorksPage> {
                     width: screenSize.width * 0.1,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      launchIG();
+                    },
                     icon: Image.asset(
                       'assets/images/ig_icon.png',
                     ),
@@ -445,7 +441,9 @@ class _PersonalWorksPageState extends State<PersonalWorksPage> {
                     width: screenSize.width * 0.1,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      launchFB();
+                    },
                     icon: Image.asset(
                       'assets/images/fb_icon.png',
                     ),

@@ -4,6 +4,7 @@ import 'package:kelsey_website/contact_page.dart';
 import 'package:kelsey_website/home_page.dart';
 import 'package:kelsey_website/personal_works_page.dart';
 import 'package:kelsey_website/professional_works_page.dart';
+import 'package:kelsey_website/route.dart';
 import 'package:kelsey_website/styles.dart';
 
 class ProjectsPage extends StatefulWidget {
@@ -241,7 +242,7 @@ class _ProjectsPageState extends State<ProjectsPage> {
                 ],
               ),
             ),
-            Container(
+            SizedBox(
               width: screenSize.width,
               height: screenSize.height * 0.12,
               child: Row(
@@ -249,7 +250,9 @@ class _ProjectsPageState extends State<ProjectsPage> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      launchIN();
+                    },
                     icon: Image.asset(
                       'assets/images/in_icon.png',
                     ),
@@ -259,7 +262,9 @@ class _ProjectsPageState extends State<ProjectsPage> {
                     width: screenSize.width * 0.1,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      launchIG();
+                    },
                     icon: Image.asset(
                       'assets/images/ig_icon.png',
                     ),
@@ -269,7 +274,9 @@ class _ProjectsPageState extends State<ProjectsPage> {
                     width: screenSize.width * 0.1,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      launchFB();
+                    },
                     icon: Image.asset(
                       'assets/images/fb_icon.png',
                     ),

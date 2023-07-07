@@ -5,6 +5,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:kelsey_website/about_page.dart';
 import 'package:kelsey_website/home_page.dart';
 import 'package:kelsey_website/projects_page.dart';
+import 'package:kelsey_website/route.dart';
 import 'package:kelsey_website/styles.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -378,43 +379,49 @@ class _ContactPageState extends State<ContactPage> {
                   ],
                 ),
               ),
-              Container(
-                width: screenSize.width,
-                height: screenSize.height * 0.15,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    IconButton(
-                      onPressed: () {},
-                      icon: Image.asset(
-                        'assets/images/in_icon.png',
-                      ),
-                      iconSize: screenSize.width * 0.05,
+              SizedBox(
+              width: screenSize.width,
+              height: screenSize.height * 0.12,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  IconButton(
+                    onPressed: () {
+                      launchIN();
+                    },
+                    icon: Image.asset(
+                      'assets/images/in_icon.png',
                     ),
-                    SizedBox(
-                      width: screenSize.width * 0.1,
+                    iconSize: screenSize.width * 0.05,
+                  ),
+                  SizedBox(
+                    width: screenSize.width * 0.1,
+                  ),
+                  IconButton(
+                    onPressed: () {
+                      launchIG();
+                    },
+                    icon: Image.asset(
+                      'assets/images/ig_icon.png',
                     ),
-                    IconButton(
-                      onPressed: () {},
-                      icon: Image.asset(
-                        'assets/images/ig_icon.png',
-                      ),
-                      iconSize: screenSize.width * 0.05,
+                    iconSize: screenSize.width * 0.05,
+                  ),
+                  SizedBox(
+                    width: screenSize.width * 0.1,
+                  ),
+                  IconButton(
+                    onPressed: () {
+                      launchFB();
+                    },
+                    icon: Image.asset(
+                      'assets/images/fb_icon.png',
                     ),
-                    SizedBox(
-                      width: screenSize.width * 0.1,
-                    ),
-                    IconButton(
-                      onPressed: () {},
-                      icon: Image.asset(
-                        'assets/images/fb_icon.png',
-                      ),
-                      iconSize: screenSize.width * 0.05,
-                    ),
-                  ],
-                ),
+                    iconSize: screenSize.width * 0.05,
+                  ),
+                ],
               ),
+            ),
               Container(
                 height: screenSize.height * 0.04,
                 decoration: const BoxDecoration(
