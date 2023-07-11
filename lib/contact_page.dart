@@ -29,13 +29,55 @@ class _ContactPageState extends State<ContactPage> {
       'email': email,
       'message': message,
     }).then((value) {
-      // ignore: avoid_print
       print('Message sent');
-      const SnackBar(content: Center(child: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Text('Message sent!)'),
-      )));
+      _sent();
     }).catchError((error) => print('Failed to send message: $error'));
+  }
+
+  _sent() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          backgroundColor: ivory,
+          alignment: Alignment.center,
+          actionsAlignment: MainAxisAlignment.center,
+          title: Text(
+            'Message Sent',
+            style: TextStyle(
+                color: orange,
+                fontFamily: 'Kodchasan',
+                fontSize: 20.0,
+                fontWeight: FontWeight.bold),
+            textAlign: TextAlign.center,
+          ),
+          content: Text(
+            'Thank you for your message!',
+            style: TextStyle(
+                color: green,
+                fontFamily: 'Kodchasan',
+                fontSize: 16.0,
+                fontWeight: FontWeight.bold),
+            textAlign: TextAlign.center,
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: Text(
+                'OK',
+                style: TextStyle(
+                    color: orange,
+                    fontFamily: 'Kodchasan',
+                    fontSize: 12.0,
+                    fontWeight: FontWeight.bold),
+              ),
+            )
+          ],
+        );
+      },
+    );
   }
 
   @override
@@ -380,48 +422,48 @@ class _ContactPageState extends State<ContactPage> {
                 ),
               ),
               SizedBox(
-              width: screenSize.width,
-              height: screenSize.height * 0.12,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  IconButton(
-                    onPressed: () {
-                      launchIN();
-                    },
-                    icon: Image.asset(
-                      'assets/images/in_icon.png',
+                width: screenSize.width,
+                height: screenSize.height * 0.12,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    IconButton(
+                      onPressed: () {
+                        launchIN();
+                      },
+                      icon: Image.asset(
+                        'assets/images/in_icon.png',
+                      ),
+                      iconSize: screenSize.width * 0.05,
                     ),
-                    iconSize: screenSize.width * 0.05,
-                  ),
-                  SizedBox(
-                    width: screenSize.width * 0.1,
-                  ),
-                  IconButton(
-                    onPressed: () {
-                      launchIG();
-                    },
-                    icon: Image.asset(
-                      'assets/images/ig_icon.png',
+                    SizedBox(
+                      width: screenSize.width * 0.1,
                     ),
-                    iconSize: screenSize.width * 0.05,
-                  ),
-                  SizedBox(
-                    width: screenSize.width * 0.1,
-                  ),
-                  IconButton(
-                    onPressed: () {
-                      launchFB();
-                    },
-                    icon: Image.asset(
-                      'assets/images/fb_icon.png',
+                    IconButton(
+                      onPressed: () {
+                        launchIG();
+                      },
+                      icon: Image.asset(
+                        'assets/images/ig_icon.png',
+                      ),
+                      iconSize: screenSize.width * 0.05,
                     ),
-                    iconSize: screenSize.width * 0.05,
-                  ),
-                ],
+                    SizedBox(
+                      width: screenSize.width * 0.1,
+                    ),
+                    IconButton(
+                      onPressed: () {
+                        launchFB();
+                      },
+                      icon: Image.asset(
+                        'assets/images/fb_icon.png',
+                      ),
+                      iconSize: screenSize.width * 0.05,
+                    ),
+                  ],
+                ),
               ),
-            ),
               Container(
                 height: screenSize.height * 0.04,
                 decoration: const BoxDecoration(
